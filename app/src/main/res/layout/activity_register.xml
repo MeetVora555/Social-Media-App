@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:layout_marginBottom="25dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/edtusr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16.90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape"
+        android:drawableStart="@drawable/person"
+        android:drawablePadding="10dp"
+        android:hint="User Name"
+        android:inputType="text"
+        android:padding="20.80dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorSecondaryText"
+        android:textSize="18.20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16.90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:hint="Email ID"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:padding="20.80dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorSecondaryText"
+        android:textSize="18.20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16.90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:hint="Mobile No"
+        android:drawableStart="@drawable/baseline_phone_24"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        android:padding="20.80dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorSecondaryText"
+        android:textSize="18.20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16.90dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Password"
+        android:drawableStart="@drawable/baseline_password_24"
+        android:drawableEnd="@drawable/showpass"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:padding="20.80dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorSecondaryText"
+        android:textSize="18.20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtcpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16.90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/shape"
+        android:hint="Confirm Password"
+        android:drawableStart="@drawable/baseline_password_24"
+        android:drawableEnd="@drawable/showpass"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:padding="20.80dp"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorSecondaryText"
+        android:textSize="18.20sp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnreg"
+        android:layout_marginHorizontal="16.90dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Register"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorSecondaryText"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already registered?"
+            android:layout_marginTop="16.90dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/txtlogin"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16.90dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
